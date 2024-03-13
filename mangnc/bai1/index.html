@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    Customer name:
+    <input type="text" id="name">
+    <br>
+    ID:
+    <input type="text" name="" id="id">
+    <br>
+    Product Name:
+    <input type="text" name="" id="prdname">
+    <br>
+    Quantity:
+    <input type="text" name="" id="qty">
+    <br>
+    Price:
+    <input type="text" name="" id="price">
+    <br>
+    <input type="button" value="Save" onclick="save()">
+    <input type="button" value="Show" onclick="show()">
+    <input type="button" value="Reset" onclick="reset()">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>Auto increment</th>
+                <th>Customer name</th>
+                <th>ID</th>
+                <th>Product name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="tbl"></tbody>
+    </table>
+</body>
+</html>
