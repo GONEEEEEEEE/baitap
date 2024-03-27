@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../thh"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "KTGK"
+	}
+}
