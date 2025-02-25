@@ -1,0 +1,74 @@
+body {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 23px;
+  background: #029ef3;
+}
+
+#wp-form-login {
+  width: 300px; /* Thu hẹp form */
+  background: #fdfdfd;
+  border-radius: 5px; /* Bo góc nhẹ */
+  padding: 20px;
+  margin: 150px auto;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng nổi nhẹ */
+}
+
+#wp-form-login h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+#wp-form-login input[type="text"],
+#wp-form-login input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#wp-form-login input[type="password"] {
+  background-color: #fffbea; /* Thêm màu nền vàng nhạt */
+}
+
+#wp-form-login input[type="submit"] {
+  width: 100%;
+  padding: 8px 10px;
+  background-color: #029ef3;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#wp-form-login input[type="submit"]:hover {
+  background-color: #027dcc; /* Màu xanh đậm hơn khi hover */
+}
+
+#wp-form-login a {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #800080; /* Màu tím */
+  text-decoration: none;
+}
+
+#wp-form-login a:hover {
+  text-decoration: underline;
+}
+
+h1.page-title {
+  font-size: 18px;
+  padding: 0px 0px 20px;
+}
+
+p.error {
+  font-size: 13px;
+  color: red;
+}
